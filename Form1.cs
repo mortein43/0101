@@ -23,8 +23,8 @@ namespace _0101
         async Task start_or_stop()
         {
             DateTime startTime = DateTime.Now;
-
-
+            
+            
             while (true)
             {
                 TimeSpan timeElapsed = DateTime.Now - startTime;
@@ -48,7 +48,7 @@ namespace _0101
         private void btn_start_Click(object sender, EventArgs e)
         {
             flag = true;
-
+            
         }
 
         private void btn_stop_Click(object sender, EventArgs e)
